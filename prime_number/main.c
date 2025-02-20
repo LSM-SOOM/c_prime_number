@@ -8,7 +8,7 @@ void main(void) {
 	int incValue; // 프라임넘버를 확인하기 위한 나눔수
 
 	// 2이상의 정수를 입력 받는다.
-	printf("2이상의 정수를 입력하세요 : ");
+	printf("2이상의 정수를 입력 : ");
 	scanf("%d", &inputValue);
 	// 2부터 1씩 증가하면서 입력 받은 수까지 증가 후 종료하는 루프
 		for (stepValue = 2; stepValue <= inputValue; stepValue++) {
@@ -27,7 +27,7 @@ void main(void) {
 			//화면에 표시된 게 5개를 넘어가면 줄바꿈을 수행한다.
 			if (column == 5) {
 				column = 0;
-				printf("\n");
+				printf("\n"); 
 			}
 
 		}
